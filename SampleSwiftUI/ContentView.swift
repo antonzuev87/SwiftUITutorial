@@ -9,15 +9,41 @@
 import SwiftUI
 
 struct ContentView : View {
+    @State private var showingAlert = false
+    @State private var name = "Anton"
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            HStack {
+                VStack(spacing: 20.0) {
+                        Text("Hello")
+                        TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $name)
+                            .padding(.horizontal, 15.0)
+                        Button(action: {
+                            self.showingAlert = true
+                        }) {
+                            Text("Show Alert")
+                                .foregroundColor(Color.red)
+                        }.alert(isPresented: $showingAlert) {
+                            Alert(title: Text("Important message"), message: Text("Welcome \(name)"), dismissButton: .default(Text("Got it!")))
+                        }
+                        NavigationLink(destination: DetailView()) {
+                            Text("Go to Detail")
+                        }
+                    }.padding(.all, 10.0)
+                        
+                .navigationBarTitle("Main Page")
+            }
+        }
     }
 }
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        VStack() {
+            ContentView()
+        }
     }
 }
 #endif

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44302EC8240E83C2008F78B9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44302EC7240E83C2008F78B9 /* DetailView.swift */; };
 		448E8D7A22B1388B001B13C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E8D7922B1388B001B13C8 /* AppDelegate.swift */; };
 		448E8D7C22B1388B001B13C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E8D7B22B1388B001B13C8 /* SceneDelegate.swift */; };
 		448E8D7E22B1388B001B13C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E8D7D22B1388B001B13C8 /* ContentView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44302EC7240E83C2008F78B9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		448E8D7622B1388B001B13C8 /* SampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E8D7922B1388B001B13C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		448E8D7B22B1388B001B13C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				448E8D7922B1388B001B13C8 /* AppDelegate.swift */,
 				448E8D7B22B1388B001B13C8 /* SceneDelegate.swift */,
 				448E8D7D22B1388B001B13C8 /* ContentView.swift */,
+				44302EC7240E83C2008F78B9 /* DetailView.swift */,
 				448E8D7F22B1388C001B13C8 /* Assets.xcassets */,
 				448E8D8422B1388C001B13C8 /* LaunchScreen.storyboard */,
 				448E8D8722B1388C001B13C8 /* Info.plist */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				448E8D7A22B1388B001B13C8 /* AppDelegate.swift in Sources */,
+				44302EC8240E83C2008F78B9 /* DetailView.swift in Sources */,
 				448E8D7C22B1388B001B13C8 /* SceneDelegate.swift in Sources */,
 				448E8D7E22B1388B001B13C8 /* ContentView.swift in Sources */,
 			);
@@ -364,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SampleSwiftUI/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2A956G64PM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SampleSwiftUI/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2A956G64PM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
